@@ -12,7 +12,7 @@
 <header></header>
 <main>
 	<h1> Alexandra Pereira</h1><br>
-	<h3> Web Development/er?</h3>
+	<h3> Web Development</h3>
 	<section>
 		<!-- my photo here-->
 	</section>
@@ -21,13 +21,64 @@
 		<p>let me introduce my self</p>
 	</section>
 	<section>
-		<h4>Choose language:</h4>
+		<h4>Curriculum Vitae</h4>
+		<h6>Choose language:</h6>
 		<div>
-			<!--make a ?table? for showing the language options with labeled buttons, and buttons must be the representative flag of the language-->
+			<!-- Button to open the English CV modal -->
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#englishCvModal">
+				English
+			</button>
+			
+			<!-- The English CV modal -->
+			<div class="modal fade" id="englishCvModal" tabindex="-1" role="dialog"
+				 aria-labelledby="englishCvModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-fullscreen" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="englishCvModalLabel">English CV - Alexandra Pereira</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-label="Close">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<iframe src="./Translated/english_cv.html" width="100%" height="100%"></iframe>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Button to open the French CV modal -->
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#frenchCvModal">
+				Français
+			</button>
+			
+			<!-- The French CV modal -->
+			<div class="modal fade" id="frenchCvModal" tabindex="-1" role="dialog" aria-labelledby="frenchCvModalLabel"
+				 aria-hidden="true">
+				<div class="modal-dialog modal-fullscreen" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="frenchCvModalLabel">CV Français - Alexandra Pereira</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-label="Close">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<iframe src="./Translated/french_cv.html" width="100%" height="100%"></iframe>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 	<section>
-		<h4>Social Links:</h4>
+		<h4>Links:</h4>
 		<div>
 			<!--here I must put links like LinkedIn, ?and later my websites...?-->
 		</div>
