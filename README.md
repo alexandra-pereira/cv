@@ -1,6 +1,6 @@
 # My first CV online using basic knowledge of web development.
 
-Baby steps, but hey, a journey of a thund miles starts with a single step!
+# (Baby steps, but hey, a journey of a thund miles starts with a single step!)
 
 Hello! I'm a Junior Web Developer who is passionate about learning and growing in the field of web development. This portfolio website is a testament to my journey so far and a reflection of my skills and experiences.
 
